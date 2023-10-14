@@ -1,0 +1,28 @@
+{
+  "attachPath": {
+    "attachmentRoot": "_assets",
+    "saveAttE": "inFolderBelow",
+    "attachmentPath": "${notename}_files",
+    "attachFormat": "${originalname}",
+    "type": "GLOBAL",
+    "extensionOverride": [
+      {
+        "extension": "txt|zip|rar|pdf|json|csv",
+        "attachmentRoot": "_assets",
+        "saveAttE": "inFolderBelow",
+        "attachmentPath": "${notename}_files",
+        "attachFormat": "${originalname}"
+      }
+    ]
+  },
+  "dateFormat": "YYYYMMDDHHmmssSSS",
+  "excludeExtensionPattern": "html|htm",
+  "autoRenameAttachment": true,
+  "excludedPaths": "_templates;_scripts",
+  "excludePathsArray": [
+    "_templates",
+    "_scripts"
+  ],
+  "excludeSubpaths": true,
+  "overridePath": {}
+}
