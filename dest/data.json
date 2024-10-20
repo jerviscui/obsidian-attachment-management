@@ -19,10 +19,8 @@
   "excludeExtensionPattern": "html|htm",
   "autoRenameAttachment": true,
   "excludedPaths": "_templates;_scripts",
-  "excludePathsArray": [
-    "_templates",
-    "_scripts"
-  ],
+  "excludePathsArray": ["_templates", "_scripts"],
   "excludeSubpaths": true,
-  "overridePath": {}
+  "overridePath": {},
+  "disableNotification": false
 }
